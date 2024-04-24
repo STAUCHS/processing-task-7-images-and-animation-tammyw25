@@ -6,7 +6,7 @@ public class Sketch extends PApplet {
   PImage imgMiffyBear; 
   PImage imgLittleFarm;
 
-  // x and y coordinate for happycat
+  // x and y coordinate for Miffy Bear
   float fltMiffyBearX = 50; 
   float fltMiffyBearY = 100;
   float fltMiffyBearRadian = 10;
@@ -14,7 +14,7 @@ public class Sketch extends PApplet {
   float fltMiffyBearWidth = 10;
   float fltMiffyBearHeight = 10;
 
-  // happycat variables 
+  // Miffy Bear variables 
   float fltXSpeed = random(-1, 5); 
   float fltYSpeed = random(-1, 5); 
 
