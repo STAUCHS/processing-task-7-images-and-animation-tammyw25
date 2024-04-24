@@ -18,7 +18,7 @@ public class Sketch extends PApplet {
   float fltXSpeed = random(-1, 5); 
   float fltYSpeed = random(-1, 5); 
 
-  //define colours
+  // define colours
   int beige = color(227, 215, 184);
   int white = color(255, 255, 255);
   int brown = color(77, 44, 15);
@@ -67,7 +67,7 @@ public class Sketch extends PApplet {
 
     image(imgMiffyBear, fltUpdatedMiffyBearX, fltUpdatedMiffyBearY);
 
-    //Create an edge collison 
+    // Create an edge collison 
    
     if (fltMiffyBearX > 0 || fltUpdatedMiffyBearX > width || fltUpdatedMiffyBearY < 0 || fltUpdatedMiffyBearX < 0) { 
       fltYSpeed *= -1;
@@ -80,7 +80,7 @@ public class Sketch extends PApplet {
          fltMiffyBearX += fltXSpeed;
          fltMiffyBearY += fltYSpeed;
        
-    //draw the Miffy Bear
+    // draw the Miffy Bear
     image(imgMiffyBear, fltMiffyBearX, fltMiffyBearY, fltMiffyBearWidth, fltMiffyBearHeight);
 
     
